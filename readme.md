@@ -57,7 +57,7 @@ $ systemctl start redis
 
 ```console
 $ PORT=3000 HOST=app.example.com CLIENT_ID=xxxxxxxxxxxxxxxx CLIENT_SECRET=yyyyyyyyyyyyyyyyyyyyy \
-MONGOURI=mongodb://username:password@hostname:27017/DatabaseName REDIS_PASSWORD=password JWT_SECRET=Secret npm start
+MONGOURI=mongodb://username:password@hostname:27017/DatabaseName JWT_SECRET=Secret npm start
 ```
 
 ## Test
